@@ -7,14 +7,11 @@
 }
 
 .hiddenimg {
-  display: none;
-  position: relative;
-  top: -450px;
-  left: 150px;
+  display: none; 
 }
 
 .hiddentxt {
- 
+  text-decoration: none;
 }
 
 .hiddentxt a {
@@ -37,4 +34,152 @@
 
 .hiddentxt:hover ~ .hiddenimg {
   display: block;
+  height: 0px;
+  position: relative;
+  top: -450px;
+  left: 150px;
+  z-index: 1; 
+  float: clear both;
 }
+
+.footer {
+  text-align: center;
+  display: block;
+  font-display: bold;
+  width: 100%;
+  bottom: 0px;
+  height: 50px;
+}
+
+.card-footer {
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link {
+  color: #4aaaa5; 
+  font-weight:bolder;
+}
+
+a  {
+  color: #4aaaa5; 
+  font-weight:bolder;
+}
+
+
+#mydiv {
+
+    position: absolute;
+    display: block;
+    /* z-index: 9; */
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+       overflow: hidden;
+}
+
+ 
+
+#mydivheader {
+    padding: 10px;
+        display: block;
+    cursor: move;
+    /* z-index: 10; */
+    background-color: #2196F3;
+       overflow: hidden;
+    color: #fff;
+}
+
+ 
+
+.container1 {
+    width: 600px;
+        display: block;
+    height: 300px;
+    overflow: hidden;
+    background-color: green;
+}
+
+.container {
+/* padding: 0px; */
+/* margin-inline-start: 10px;
+margin-inline-end: 10px; */
+border-radius: 40px;
+}
+
+
+ 
+
+.container2 {
+    clearfloat: both;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: auto;
+}
+
+ 
+
+.container1 {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: 300px;
+    overflow-y:scroll;  
+
+}
+
+ 
+
+.darker {
+float: clear both;
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+ 
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ 
+
+/* .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+} */
+
+ 
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+ 
+
+.time-right {
+    float: right;
+    color: #aaa;
+
+}
+
+ 
+
+.time-left {
+    float: left;
+    color: #999;
+}
+

@@ -1,85 +1,189 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <title>My Bootstrapped Portfolio</title>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  </head>
-<body>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>My Bootstrapped Portfolio</title>
+
+</head>
+
+
+
+<header>
+
+    <div class="container">
+
+        <ul class="nav nav-pills nav-fill navbar-light" style="background-color: #ffffff;">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html" style="color: gray; font-weight:bolder; font-size:larger">
+              Leo Salinas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html" style="background-color:#4aaaa5; font-weight:bolder; font-size:larger">Portfolio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contact.html" style="color: gray; font-weight:bolder; font-size:larger">Contact</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="rateme.html" style="color: gray; font-weight:bolder; font-size:larger">Rate me</a>
+          </li>
+        </ul>
     
-  <div class="container">
+      </div>
 
-    <ul class="nav nav-pills nav-fill navbar-light" style="background-color: #ffffff;">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html" style="background-color:#4aaaa5; font-weight:bolder; font-size:larger">
-                Leo Salinas</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="index.html" style="color: gray;">About</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="portfolio.html" style="color: gray; font-weight:bolder; font-size:larger">Portfolio</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="contact.html" style="color: gray">Contact</a>
-        </li>
-      </ul>
+  <br>
 
-    </div>
+</header>
 
-    <br>
+<!-- *********************************** CHANGING BODY ******************************************************* -->
     <body background="assets/images/whirlpool.png">
-
 
     <div class="container" style= "background-color:#ffffff">
         <div class="row">
             <div class="page-header" style= "color:#4aaaa5; font-weight:bolder; margin-left: 15px">
+                <br>
                 <h1>Portfolio</h1>
             </div> 
             <br>
         </div>
-        <div class="row">
-            <div class= "col-md-4">
-                <a href= "http://www.poppedamaranth.com"><img src="assets/images/malokin.png" width=100%></a>
-             </div>            
-            <div class= "col-md-4">
-                    <a href= "http://www.cropbasket.com"><img src="assets/images/cropbasket.png" width=100%></a>
-            </div>                   
+       
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/crypto.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-light" >Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/images/nahil.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-light" >Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/images/malokin sol.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-light" >Go somewhere</a>
+            </div>
+          </div>
         </div>
+
         <br>
-        <div class="row">
-                <div class= "col-md-4">
-                    <a href= "http://www.malokin.com"><img src="assets/images/malokin sol.png" width=100%></a>
-                 </div>            
-                <div class= "col-md-4">
-                        <a href= "http://www.leoscrypto.com"><img src="assets/images/crypto.jpg" width=100%></a>
-                </div>                   
-         </div>
-         <br>
-         <div class="row">
-                <div class= "col-md-4">
-                    <a href= href= "http://www.nahil.com"><img src="assets/images/nahil.jpg" width=100%></a>
-                 </div>            
-        </div>
-        <br>
+
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/crypto.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer text-center">
+                  <a href="#" class="btn btn-light" >Go somewhere</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/images/nahil.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer text-center">
+                  <a href="#" class="btn btn-light" >Go somewhere</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/images/malokin sol.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-light" >Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="assets/images/crypto.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-light" >Go somewhere</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/images/nahil.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-light" >Go somewhere</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/images/malokin sol.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-light" >Go somewhere</a>
+                </div>
+              </div>
+            </div>
           
     </div>
 
-    <br><br><br><br>
-    <div class="container" style= "background-color:#ffffff">
+    
+
+    <br> 
+     <!-- *********************************** END CHANGING BODY ******************************************************* -->
+
+    <div class="container">
+      <div class="footer" style="background-color:#ffffff">
         <nav class="navbar sticky-top ">
-            <p class="navbar-brand" style="text-align: center; width:100%">Copyright @ Leo Salinas</p>
+          <p class="navbar-brand" style="text-align: center; width:100%">Copyright @
+            <a href="https://github.com/salinasleo/">Leo Salinas</a>
+          </p>
         </nav>
       </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-</body>
-</html>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/javascript.js"></script>
+  </body>
+  
+  
+  
+  
+  </html>
