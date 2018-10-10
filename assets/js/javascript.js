@@ -79,9 +79,9 @@ function dragElement(elmnt) {
 
     // set the element's new position:
 
-    elmnt.style.top = Math.max(108, Math.min(372,(elmnt.offsetTop - pos2))) + "px";
+    elmnt.style.top = Math.max(187, Math.min(442,(elmnt.offsetTop - pos2))) + "px";
 
-    elmnt.style.left = Math.min(464, Math.max(8,(elmnt.offsetLeft - pos1))) + "px";
+    elmnt.style.left = Math.min(675, Math.max(245,(elmnt.offsetLeft - pos1))) + "px";
 
   }
 

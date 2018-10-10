@@ -70,22 +70,23 @@ a  {
 
 #mydiv {
 
-    position: absolute;
+    /* position: absolute; */
     display: block;
-    /* z-index: 9; */
+    /* z-index: 9;  */
     background-color: #f1f1f1;
     text-align: center;
     border: 1px solid #d3d3d3;
-       overflow: hidden;
+    overflow: hidden;
 }
 
  
 
 #mydivheader {
+    position: absolute;
     padding: 10px;
         display: block;
     cursor: move;
-    /* z-index: 10; */
+    z-index: 10;
     background-color: #2196F3;
        overflow: hidden;
     color: #fff;
@@ -93,13 +94,13 @@ a  {
 
  
 
-.container1 {
+/* .container1 {
     width: 600px;
         display: block;
     height: 300px;
     overflow: hidden;
     background-color: green;
-}
+} */
 
 .container {
 /* padding: 0px; */
@@ -126,6 +127,9 @@ border-radius: 40px;
 .container1 {
     border: 2px solid #dedede;
     background-color: #f1f1f1;
+    width: 600px;
+    display: block;
+    overflow: hidden;
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
