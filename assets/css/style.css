@@ -1,0 +1,40 @@
+.profile_pic
+{
+    float: left;
+    padding-top: 0px;
+    padding-right: 15px;
+   
+}
+
+.hiddenimg {
+  display: none;
+  position: relative;
+  top: -450px;
+  left: 150px;
+}
+
+.hiddentxt {
+ 
+}
+
+.hiddentxt a {
+  text-decoration: none;
+}
+
+.hiddenclick {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hiddenclick a {
+  text-decoration: none;
+}
+
+.hiddenclick a:visited {
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
